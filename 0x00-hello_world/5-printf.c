@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
-  * main - Prints "with proper grammar, but the outcome is
-  * a piece of art," followed by a newline.
+  * main - Entry point for the function
   *
-  * Description : A C programme.
+  * Description : Using the printf function
   *
   * Return : Always 0 (Success)
   */
