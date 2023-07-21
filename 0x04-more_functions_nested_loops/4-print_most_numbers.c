@@ -1,19 +1,23 @@
 #include "main.h"
 
 /**
-  * print_most_numbers - Printing the numbers that occur most
-  */
-
+ * print_most_numbers -  checks for checks for a digit (0 through 9).
+ *
+ * Return: Always 0.
+ */
 void print_most_numbers(void)
 {
-	int i;
+	int c;
 
-	for (i = 0; i <= 9; i++)
+	for (c = 48; c < 58; c++)
 	{
-		if (i == 2 || i == 4)
+		if (c != 50)
 		{
-			putchar(i + '0');
+			if (c != 52)
+			{
+				_putchar(c);
+			}
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
